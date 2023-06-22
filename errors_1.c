@@ -30,7 +30,7 @@ int usage_error(void)
 int malloc_error(void)
 {
 	fprintf(stderr, "Error: malloc failed\n");
-	return (EXIT_FAILURE):
+	return (EXIT_FAILURE);
 }/**
  * f_open_error - Prints file opening error messages w/ file name.
  * @filename: Name of file failed to open
